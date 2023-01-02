@@ -22,7 +22,10 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-
+.container{
+    display: grid;
+    justify-content: center;
+}
 
 .l-container {
     /* top: 50px; */
@@ -54,25 +57,28 @@ body {
 .box1 {
     display: grid;
     justify-content: center;
-    height: 18rem;
-}
-
-.box3 {
-
-    height: 29rem;
-}
-
-.box4 {
-
-    height: 40rem;
+    height: 21rem;
 }
 
 .box2 {
     display: grid;
     justify-content: center;
-    height: 21rem;
+    height: 25rem;
 }
 
+.box3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 70px;
+    height: 29rem;
+}
+
+.box4 {
+    display: grid;
+    gap: 70px;
+    grid-template-columns: auto auto;
+    height: 40rem;
+}
 
 
 .box2 .b-game-card .child {
@@ -221,17 +227,6 @@ span {
         transform: translateX(70px);
     }
 } */
-.box3 {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 70px;
-}
-
-.box4 {
-    display: grid;
-    gap: 70px;
-    grid-template-columns: auto auto;
-}
 
 @media (max-width:1200px) {
     .b-game-card {
@@ -259,12 +254,11 @@ span {
     .box1 .b-game-card .child,
     .box2 .b-game-card .child {
         width: 100%;
-        ;
     }
 
-    .box2 .b-game-card .child {
+    /* .box2 .b-game-card .child {
         height: 100%;
-    }
+    } */
 
     .b-game-card {
         width: 320px;
@@ -278,7 +272,7 @@ span {
     }
 
     .box2 {
-        height: 20rem;
+        height: 25rem;
     }
 
     .box3 {
@@ -301,9 +295,9 @@ span {
 
     span {
         z-index: 250;
-        font-size: 15px;
+        font-size: 20px;
         font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
-        font-weight: 30px;
+        /* font-weight: 30px; */
     }
 
     .title {
@@ -315,9 +309,13 @@ span {
         gap: 40px;
     }
 
+    .box1 .b-game-card .child,
+    .box2 .b-game-card .child {
+        width: 100%;
+    }
 }
 
-@media (max-width:650px) {
+@media (max-width:690px) {
     .l-container {
         grid-gap: 0px;
         padding-bottom: 250px;
@@ -328,8 +326,9 @@ span {
         grid-template-columns: auto;
         grid-template-rows: auto auto;
         /* grid-gap: 300px; */
+        height: 53rem;
         grid-gap: 0;
-        height: 100vh;
+        /* height: 100vh; */
     }
 
     .box3.b-game-card:nth-child(1) {
@@ -353,7 +352,7 @@ span {
     }
 
     .box2 {
-        height: 47vh;
+        height: 21rem;
     }
 
     .title {
@@ -365,7 +364,11 @@ span {
         width: 320px;
         height: 280px;
     }
-
+    .child{
+        width: 100%;
+        margin: 0;
+        
+    }
     .name {
         font-size: 20px;
     }
@@ -416,7 +419,8 @@ span {
 .box1 .b-game-card .child,
 .box2 .b-game-card .child {
     width: 80%;
-    ;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /* .child:nth-child(1) {
