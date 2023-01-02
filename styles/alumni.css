@@ -108,7 +108,7 @@ body {
     /* background: linear-gradient(90deg, rgba(67, 61, 61) 0%, rgb(81, 78, 78) 25%, rgb(97, 94, 94) 50%, rgb(118, 112, 112) 75%, rgb(152, 147, 147) 100%); */
     /* background: linear-gradient(315deg, #ffeb7d, #857101); */
     /* background-image:url("images/sponsor2.png"); */
-    background-image: url("/images/sponsorAu-01.png");
+    background-image: url("../images/sponsorAu-01.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     /* background: center; */
@@ -120,7 +120,7 @@ body {
     /* background: rgb(67, 61, 61); */
     /* background: linear-gradient(90deg, rgba(67, 61, 61) 0%, rgb(81, 78, 78) 25%, rgb(97, 94, 94) 50%, rgb(118, 112, 112) 75%, rgb(152, 147, 147) 100%); */
     /* background: linear-gradient(315deg, #C0C0C0, #5d5c5c); */
-    background-image: url("/images/sponsorAg-03.png");
+    background-image: url("../images/sponsorAg-03.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: grid;
@@ -136,7 +136,7 @@ body {
     display: grid;
     /* background: linear-gradient(315deg, #a26f63, #6C541E); */
     /* background: linear-gradient(315deg, #b87079, #662d33); */
-    background-image: url("/images/sponsorB-04.png");
+    background-image: url("../images/sponsorB-04.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 
@@ -153,7 +153,7 @@ body {
     display: grid;
     /* background: linear-gradient(315deg, #a26f63, #6C541E); */
     /* background: linear-gradient(315deg, #b87079, #662d33); */
-    background-image: url("/images/sponsorG-05.png");
+    background-image: url("../images/sponsorG-05.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 
