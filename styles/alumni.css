@@ -22,7 +22,8 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     display: grid;
     justify-content: center;
 }
@@ -252,8 +253,11 @@ span {
 @media (max-width:900px) {
 
     .box1 .b-game-card .child,
-    .box2 .b-game-card .child {
+    .box2 .b-game-card .child,
+    .box3 .b-game-card .child,
+    .box4 .b-game-card .child{
         width: 100%;
+        height: 320px;
     }
 
     /* .box2 .b-game-card .child {
@@ -309,10 +313,7 @@ span {
         gap: 40px;
     }
 
-    .box1 .b-game-card .child,
-    .box2 .b-game-card .child {
-        width: 100%;
-    }
+
 }
 
 @media (max-width:690px) {
@@ -326,21 +327,21 @@ span {
         grid-template-columns: auto;
         grid-template-rows: auto auto;
         /* grid-gap: 300px; */
-        height: 53rem;
+        height: 63rem;
         grid-gap: 0;
         /* height: 100vh; */
     }
 
-    .box3.b-game-card:nth-child(1) {
-        height: 60vh;
+    .box3 .b-game-card:nth-child(1) {
+        height: 55vh;
     }
 
-    .box3.b-game-card:nth-child(2) {
+    .box3 .b-game-card:nth-child(2) {
         height: 60vh;
     }
 
     .box1 {
-        height: 24rem;
+        height: 26rem;
     }
 
     .box4 {
@@ -352,7 +353,7 @@ span {
     }
 
     .box2 {
-        height: 21rem;
+        height: 26rem;
     }
 
     .title {
@@ -364,20 +365,18 @@ span {
         width: 320px;
         height: 280px;
     }
-    .child{
+
+    .child {
         width: 100%;
         margin: 0;
-        
+
     }
+
     .name {
         font-size: 20px;
     }
 
 }
-
-
-
-
 
 .b-game-card {
     cursor: pointer;
@@ -423,28 +422,32 @@ span {
     margin-right: 10%;
 }
 
-/* .child:nth-child(1) {
+.child:nth-child(1) {
     --offset: 0;
     z-index: 4;
-    
-  }
-  .child:nth-child(2) {
+
+}
+
+.child:nth-child(2) {
     --offset: 1;
     z-index: 3;
-   
-  }
-  .child:nth-child(3) {
+
+}
+
+.child:nth-child(3) {
     --offset: 2;
     z-index: 2;
-    
-  }
-  .child:nth-child(4) {
+
+}
+
+.child:nth-child(4) {
     --offset: 3;
     z-index: 1;
-    
-  }
-  .child:nth-child(5) {
+
+}
+
+.child:nth-child(5) {
     --offset: 4;
     z-index: 0;
-    
-  } */
+
+}
